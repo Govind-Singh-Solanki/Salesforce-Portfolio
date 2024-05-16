@@ -1,0 +1,63 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Error",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"6c0fe77c-2aa6-40e1-aaba-e5cb496ef018\",\"columns\":[{\"UUID\":\"9bc8aca5-ee18-4060-ba0f-f70c1fb88bd7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : {
+                "richTextValue" : "<h1 style=\"text-align: center;\">Invalid Page</h1>"
+              },
+              "definition" : "community_builder:richTextEditor",
+              "id" : "54efbaf9-78b9-4b75-92e9-7654bb5dae3e",
+              "type" : "component"
+            } ],
+            "id" : "9bc8aca5-ee18-4060-ba0f-f70c1fb88bd7",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "6c0fe77c-2aa6-40e1-aaba-e5cb496ef018",
+          "type" : "component"
+        } ],
+        "id" : "aa375471-a622-4712-8b19-c22dd5fd155d",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Error",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "e4e99d24-5f18-44cb-ae75-5a624cea1b9e",
+          "type" : "component"
+        } ],
+        "id" : "780eadf5-e4c4-4afb-9b78-35f0ee737aa7",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "9c8c4a4f-6538-4bc9-af4f-9f12e141c1b3",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "error"
+  }
+}
