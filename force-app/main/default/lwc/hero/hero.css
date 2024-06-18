@@ -1,0 +1,41 @@
+img {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 12px;
+    font-size: 36px;
+}
+
+p {
+    font-size: 24px;
+}
+
+button {
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: gold;
+    color: black;
+    padding: 5px;
+}
+
+/* Responsiveness for large devices */
+@media only screen and (min-width: 768px) {
+
+    /* for making equal partitions of hero section on large screen devices */
+    .column {
+        float: left;
+        width: 50%;
+    }
+
+    .container {
+        margin-top: 10%;
+    }
+
+}
