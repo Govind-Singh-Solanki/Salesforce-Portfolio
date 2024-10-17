@@ -7,7 +7,7 @@
                 <input class="fname" type="text" name="fname">
             </label>
             <label for="lname">
-                Last name:
+                Last name <span class="required">*</span> :
                 <input class="lname" type="text" name="lname">
             </label>
             <label for="company">
@@ -15,7 +15,7 @@
                 <input class="company" type="text" name="company">
             </label>
             <label for="email">
-                Email:
+                Email <span class="required">*</span> :
                 <input class="email" type="email" name="email">
             </label>
             <textarea class="description" name="description" 
@@ -28,4 +28,6 @@
     </dialog>
 
     <button class="contact-button" onclick={showDialog}>Contact Me</button>
+
+    <c-snackbar></c-snackbar>
 </template>

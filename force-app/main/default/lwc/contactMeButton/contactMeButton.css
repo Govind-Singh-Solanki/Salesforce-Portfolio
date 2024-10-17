@@ -65,3 +65,7 @@ label, textarea {
     background-color: white;
     color: red;
 }
+
+.required {
+    color: red;
+}
