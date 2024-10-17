@@ -1,22 +1,24 @@
-h1{
+h1 {
     text-align: center;
     font-weight: 500;
     font-size: medium;
 }
 
-form{
+form {
     margin: 3px 0;
 }
 
-label, input, textarea{
+label, input, textarea {
     display: block;
+    text-align: left;
+    width: 100%;
 }
 
-textarea{
-    margin-top: 4px;
+label, textarea {
+    margin-top: 8px;
 }
 
-.cancel-button{
+.custom-button {
     align-items: center;
 }
 
@@ -26,4 +28,40 @@ textarea{
     background-color: gold;
     color: black;
     padding: 5px;
+}
+
+.button-box {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.submit-button {
+    border: none;
+    border-radius: 8px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    width: 30%;
+}
+
+.cancel-button {
+    border: none;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 30%;
+}
+
+.submit-button:hover {
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+.cancel-button:hover {
+    border: 1px solid red;
+    background-color: white;
+    color: red;
 }

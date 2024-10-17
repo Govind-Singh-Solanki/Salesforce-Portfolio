@@ -4,23 +4,27 @@
         <form action="">
             <label for="fname">
                 First name:
-                <input type="text" name="fname">
+                <input class="fname" type="text" name="fname">
             </label>
             <label for="lname">
                 Last name:
-                <input type="text" name="lname">
+                <input class="lname" type="text" name="lname">
             </label>
             <label for="company">
                 Company:
-                <input type="text" name="company">
+                <input class="company" type="text" name="company">
             </label>
             <label for="email">
                 Email:
-                <input type="text" name="email">
+                <input class="email" type="email" name="email">
             </label>
-            <textarea name="description" placeholder="What would you like to talk about" rows="3" cols="40"></textarea>
+            <textarea class="description" name="description" 
+                    placeholder="What would you like to talk about" rows="3" cols="40"></textarea>
         </form>
-        <button class="cancel-button" onclick={closeDialog}>Cancel</button>
+        <div class="button-box">
+            <button class="submit-button" onclick={handleSubmit}>Submit</button>
+            <button class="cancel-button" onclick={closeDialog}>Cancel</button>
+        </div>
     </dialog>
 
     <button class="contact-button" onclick={showDialog}>Contact Me</button>
