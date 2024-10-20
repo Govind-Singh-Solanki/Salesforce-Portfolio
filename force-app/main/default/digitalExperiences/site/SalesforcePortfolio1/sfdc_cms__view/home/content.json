@@ -9,25 +9,16 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"de7124a0-fe88-43b2-a4f9-15856d6c54d2\",\"columns\":[{\"UUID\":\"6f349be2-0555-402d-abf1-c86273227b19\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
             "children" : [ {
-              "attributes" : {
-                "backgroundColor" : "",
-                "isLinkable" : false,
-                "linkAssistiveText" : "",
-                "paddingHorizontal" : "none",
-                "paddingVertical" : "none",
-                "text" : "This is my portfolio site!",
-                "textAlign" : "center",
-                "textDecoration" : "{}",
-                "textDisplayInfo" : "{\"textStyle\":\"heading-xlarge\",\"headingTag\":\"h1\"}"
-              },
-              "definition" : "dxp_base:textBlock",
-              "id" : "dd1b19fc-d4d7-4b2e-b467-bb94ce055cca",
+              "attributes" : { },
+              "definition" : "c:hero",
+              "id" : "a11231ed-6cc4-44c9-b514-5f52b414e8f9",
               "type" : "component"
             } ],
             "id" : "6f349be2-0555-402d-abf1-c86273227b19",
@@ -48,6 +39,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Home",
             "recordId" : "{!recordId}"
           },
@@ -67,5 +59,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "home"
-  }
+  },
+  "urlName" : "home"
 }

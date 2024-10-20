@@ -10,6 +10,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"002d06e1-0504-4f7a-b741-e2014c487532\",\"columns\":[{\"UUID\":\"b6eb793d-9a8a-431f-a300-940b9ff52eac\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
@@ -34,11 +35,23 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"887933ca-0659-49a0-ba67-07adc4030975\",\"columns\":[{\"UUID\":\"0ec045ee-3dc8-4119-a435-79ce5a4a34f9\",\"columnName\":\"Column 1\",\"columnKey\":\"footerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:skillCards",
+              "id" : "b2e3b122-6d26-4121-976e-b44d953ed97b",
+              "type" : "component"
+            }, {
+              "attributes" : { },
+              "definition" : "c:aboutMe",
+              "id" : "ef8f3500-aa40-424a-b39c-84bdda2a1ee8",
+              "type" : "component"
+            } ],
             "id" : "0ec045ee-3dc8-4119-a435-79ce5a4a34f9",
             "name" : "footerSection",
             "title" : "Theme Footer",
@@ -57,5 +70,6 @@
       "id" : "c7078802-8fb5-455a-befb-8ea8fe6b72e6",
       "type" : "component"
     }
-  }
+  },
+  "urlName" : "scoped-header-and-footer"
 }

@@ -9,6 +9,7 @@
             "backgroundImageConfig" : "",
             "backgroundImageOverlay" : "rgba(0,0,0,0)",
             "componentSpacerSize" : "",
+            "dxpStyle" : { },
             "maxContentWidth" : "",
             "sectionColumnGutterWidth" : "",
             "sectionConfig" : "{\"UUID\":\"6c0fe77c-2aa6-40e1-aaba-e5cb496ef018\",\"columns\":[{\"UUID\":\"9bc8aca5-ee18-4060-ba0f-f70c1fb88bd7\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
@@ -16,6 +17,7 @@
           "children" : [ {
             "children" : [ {
               "attributes" : {
+                "dxpStyle" : { },
                 "richTextValue" : "<h1 style=\"text-align: center;\">Invalid Page</h1>"
               },
               "definition" : "community_builder:richTextEditor",
@@ -40,6 +42,7 @@
           "attributes" : {
             "customHeadTags" : "",
             "description" : "",
+            "dxpStyle" : { },
             "pageTitle" : "Error",
             "recordId" : "{!recordId}"
           },
@@ -59,5 +62,6 @@
     "dataProviders" : [ ],
     "themeLayoutType" : "Inner",
     "viewType" : "error"
-  }
+  },
+  "urlName" : "error"
 }

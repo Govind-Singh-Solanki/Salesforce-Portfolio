@@ -4,6 +4,10 @@ h1 {
     font-size: medium;
 }
 
+.contact-dialog {
+    z-index: 900;
+}
+
 form {
     margin: 3px 0;
 }

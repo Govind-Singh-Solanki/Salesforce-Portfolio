@@ -31,6 +31,12 @@ img {
     font-size: 18px;
 }
 
+h1 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
 /* Responsiveness for large devices */
 @media only screen and (min-width: 768px) {
     
