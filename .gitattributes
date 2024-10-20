@@ -10,5 +10,7 @@
 *.md text eol=lf
 
 # Handle specific file types differently (optional)
-*.bat text eol=crlf  # For Windows batch scripts, force CRLF
-*.sh text eol=lf     # For shell scripts, force LF
+# For Windows batch scripts, force CRLF
+*.bat text eol=crlf  
+# For shell scripts, force LF
+*.sh text eol=lf     
