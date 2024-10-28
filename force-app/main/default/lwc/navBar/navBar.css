@@ -1,3 +1,8 @@
+.outer-container {
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -22,10 +27,10 @@
 }
   
 /* Add an active class to highlight the current page, ADD WHEN MULTIPLE PAGES ARE PRESENT */
-/*.topnav a.active {
-    background-color: #04AA6D;
+.topnav a.active {
+    background-color: orange;
     color: white;
-}*/
+}
   
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {

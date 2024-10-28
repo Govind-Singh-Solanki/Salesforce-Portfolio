@@ -1,12 +1,14 @@
 <template>
     
-    <div class="topnav">
-        <a href="#home" class="active">Home</a>
-        <a href="#skills">My Skills</a>
-        <a href="#about">About Me</a>
-        <a class="icon" onclick={handleHamburger}>
-            <i class="icon-menu"></i>
-        </a>
+    <div class="outer-container">
+        <div class="topnav">
+            <a href="/" class={activeHome} data-id="home" onclick={switchActiveTab}>Home</a>
+            <a href="/skills" class={activeSkill} data-id="skills" onclick={switchActiveTab}>My Skills</a>
+            <a href="/about" class={activeAbout} data-id="about" onclick={switchActiveTab}>About Me</a>
+            <a class="icon" onclick={handleHamburger}>
+                <i class="icon-menu"></i>
+            </a>
+        </div>
     </div>
 
 </template>

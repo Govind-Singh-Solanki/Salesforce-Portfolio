@@ -5,20 +5,14 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>skillCards</componentName>
-                <identifier>c_skillCards</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>region2</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>hero</componentName>
-                <identifier>c_hero</identifier>
+                <componentName>footer</componentName>
+                <identifier>c_footer</identifier>
             </componentInstance>
         </itemInstances>
         <name>region3</name>

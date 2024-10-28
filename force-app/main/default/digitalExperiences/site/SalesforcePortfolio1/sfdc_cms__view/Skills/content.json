@@ -1,0 +1,67 @@
+{
+  "type" : "sfdc_cms__view",
+  "title" : "Skills",
+  "contentBody" : {
+    "component" : {
+      "children" : [ {
+        "children" : [ {
+          "attributes" : {
+            "backgroundImageConfig" : "",
+            "backgroundImageOverlay" : "rgba(0,0,0,0)",
+            "componentSpacerSize" : "",
+            "layoutDirectionDesktop" : "row",
+            "layoutDirectionMobile" : "column",
+            "layoutDirectionTablet" : "column",
+            "maxContentWidth" : "",
+            "sectionColumnGutterWidth" : "",
+            "sectionConfig" : "{\"UUID\":\"4b643375-a062-4bdc-aa3d-fb6b6317babf\",\"columns\":[{\"UUID\":\"74408387-3422-4aad-ab79-9b4f7161c650\",\"columnName\":\"Column 1\",\"columnKey\":\"col1\",\"columnWidth\":\"12\",\"seedComponents\":[]}]}",
+            "sectionMinHeight" : "",
+            "sectionVerticalAlign" : "flex-start"
+          },
+          "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:skillCards",
+              "id" : "380c1443-a693-490b-a4f1-262eddd57d9e",
+              "type" : "component"
+            } ],
+            "id" : "74408387-3422-4aad-ab79-9b4f7161c650",
+            "name" : "col1",
+            "title" : "Column 1",
+            "type" : "region"
+          } ],
+          "definition" : "community_layout:section",
+          "id" : "4b643375-a062-4bdc-aa3d-fb6b6317babf",
+          "type" : "component"
+        } ],
+        "id" : "60087a70-301a-4319-8271-9fe0a7e61013",
+        "name" : "content",
+        "title" : "Content",
+        "type" : "region"
+      }, {
+        "children" : [ {
+          "attributes" : {
+            "customHeadTags" : "",
+            "description" : "",
+            "pageTitle" : "Skills",
+            "recordId" : "{!recordId}"
+          },
+          "definition" : "community_builder:seoAssistant",
+          "id" : "60a4f7c3-7f1b-4405-92cf-b93b07b62987",
+          "type" : "component"
+        } ],
+        "id" : "4204abcb-7285-4399-afe7-0d9b24d4b4bb",
+        "name" : "sfdcHiddenRegion",
+        "title" : "sfdcHiddenRegion",
+        "type" : "region"
+      } ],
+      "definition" : "community_layout:sldsFlexibleLayout",
+      "id" : "52848667-8cfc-449f-9310-9a8a5694996e",
+      "type" : "component"
+    },
+    "dataProviders" : [ ],
+    "themeLayoutType" : "Inner",
+    "viewType" : "custom-skills"
+  },
+  "urlName" : "skills"
+}

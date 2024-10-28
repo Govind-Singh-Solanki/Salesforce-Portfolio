@@ -16,6 +16,12 @@
             "sectionConfig" : "{\"UUID\":\"002d06e1-0504-4f7a-b741-e2014c487532\",\"columns\":[{\"UUID\":\"b6eb793d-9a8a-431f-a300-940b9ff52eac\",\"columnName\":\"Column 1\",\"columnKey\":\"headerSection\",\"columnWidth\":\"12\",\"seedComponents\":null}]}"
           },
           "children" : [ {
+            "children" : [ {
+              "attributes" : { },
+              "definition" : "c:navBar",
+              "id" : "e13edfa8-0fa2-4f20-9f2b-6c8e2bafa748",
+              "type" : "component"
+            } ],
             "id" : "b6eb793d-9a8a-431f-a300-940b9ff52eac",
             "name" : "headerSection",
             "title" : "Theme Header",
@@ -43,13 +49,8 @@
           "children" : [ {
             "children" : [ {
               "attributes" : { },
-              "definition" : "c:skillCards",
-              "id" : "b2e3b122-6d26-4121-976e-b44d953ed97b",
-              "type" : "component"
-            }, {
-              "attributes" : { },
-              "definition" : "c:aboutMe",
-              "id" : "ef8f3500-aa40-424a-b39c-84bdda2a1ee8",
+              "definition" : "c:footer",
+              "id" : "4c53494d-60ef-4353-99ea-10dbc29c49bf",
               "type" : "component"
             } ],
             "id" : "0ec045ee-3dc8-4119-a435-79ce5a4a34f9",

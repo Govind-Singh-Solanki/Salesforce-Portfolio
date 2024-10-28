@@ -57,7 +57,7 @@ export default class ContactMeButton extends LightningElement {
             .then(() => {
                 this.closeDialog();
                 // this.showToast('Submitted!', 'Your request has been submitted.', 'success');
-                this.snackbar.showSnackBar('Your request has been received.');
+                this.snackbar.showSnackBar('Your request has been received.', 'success');
             })
             .catch(error => {});
 
